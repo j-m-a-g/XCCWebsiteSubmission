@@ -1,0 +1,46 @@
+body {
+    background-color: beige;
+}
+
+h1 {
+    font-family: system-ui;
+    text-align: center;
+}
+
+.slogan {
+    font-family: system-ui;
+    text-align: center;
+}
+
+button {
+    background-color: transparent;
+    border-color: transparent;
+    border-style: solid;
+    border-radius: 5%;
+    padding: 10px 200px 10px 300px;
+    color: brown;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    display: block;
+    border-radius: 10%;
+    padding: 10px;
+    height: 20%;
+}
+
+footer {
+    font-family: system-ui;
+    text-align: center;
+}
+
+p {
+    font-family: system-ui;
+    font-size: 12pt;
+    text-align: center;
+    margin: 0 auto;
+    float: center;
+    width: 300px;
+}

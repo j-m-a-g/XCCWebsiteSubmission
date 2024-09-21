@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MyMemes.com</title>
+        <link rel="stylesheet" href="redirectstyles.css">
+    </head>
+    <body>
+        <h1>Thank you for your donation!</h1>
+        <div class="slogan">
+            <h3>MyMemes.com: Where the memes are...</h3>
+        </div>
+        <img src="Images/download (1).jpg" draggable="false">
+        <button id="returnbutton">Click here to return to the main site ➡️</button>
+    </body>
+    <script>
+        document.getElementById("returnbutton").addEventListener("click", redirectFunction);
+        function redirectFunction(){
+            window.location.href = "index.html";
+        }
+        document.onmousedown=disableclick;
+        status="I am still here... 👀";
+            function disableclick(event){
+            if(event.button==2){
+                alert(status);
+                return false;    
+            }
+        }
+    </script>
+    <footer>
+        <br>
+            <p>MyMemes.com - 2023</p>
+        <br>
+    </footer>
+</html>

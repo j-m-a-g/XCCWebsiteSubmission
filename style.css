@@ -1,0 +1,127 @@
+.imagememe {
+    font-family: system-ui;
+}
+
+body {
+    background-color: beige;
+}
+
+h1 {
+    font-family: system-ui;
+    font-size: 48pt;
+    text-align: center;
+}
+
+h2 {
+    font-family: system-ui;
+    font-size: 24pt;
+    text-align: center;
+}
+
+h3 {
+    font-family: system-ui;
+    text-align: center;
+}
+
+p {
+    font-family: system-ui;
+    font-size: 12pt;
+    text-align: center;
+    margin: 0 auto;
+    float: center;
+    width: 300px;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    display: block;
+    border-radius: 25%;
+    padding: 10px;
+    height: 20%;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    border: solid;
+    border-color: burlywood;
+    border-radius: 5%;
+    border-width: 5px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+    width: 500px;
+    justify-content: center;
+}
+
+.submition {
+    background-color: burlywood;
+    padding: 10px 0px 10px 10px;
+    border: solid;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+button {
+    background-color: beige;
+    border: transparent;
+    padding: 10px 10px 10px 10px;
+    width: 98%;
+}
+
+label {
+    font-family: system-ui;
+}
+
+input {
+    background-color: beige;
+    border: transparent;
+    border-radius: 5%;
+}
+
+select {
+    background-color: beige;
+    border: transparent;
+    border-radius: 5%;
+}
+
+menu {
+    background-color: bisque;
+    height: max-content;
+    color: brown;
+    border: burlywood;
+    border-style:double;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    font-family: system-ui;
+    color: brown;
+    text-decoration: none;
+}
+
+.videomeme {
+    padding: 0px 0px 0px 100px;
+}
+
+.descriptiontext {
+    color: black;
+    padding: 0px 0px 0px 70px;
+}
+
+.icon {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    display: block;
+    border-radius: 25%;
+    padding: 10px;
+    height: 20%;
+}

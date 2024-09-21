@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- <script src="index.js"></script> -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyMemes.com</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Images/memasik-logo.png">
+  </head>
+  <body>
+    <header>
+      <div class="icon">
+        <img src="Images/memasik-logo.png" draggable="false">
+      </div>
+      <menu type="toolbar">
+        <label for="toolbar">| 🏠 Home |</label>
+        <label for="toolbar">💵 Donate |</label>
+        <label for="toolbar">🔥 Trending |</label>
+        <a href="https://www.youtube.com/results?search_query=cat+videos" target="_blank">📺 Cat Videos |<a>
+      </menu>
+    </header>
+    <h1>MyMemes.com</h1>
+    <h2>Where the memes are...</h2>
+
+    <img src="Images/download.jpg" draggable="false">
+    
+    <br>
+    <br>
+
+    <h3>🔥 Latest and Trending 🔥</h3>
+    <div class="videomeme">
+      <div class="descriptiontext">
+        <h4>Want Cringe?</h4>
+      </div>
+      <video src="Videos/y2mate.is - CRINGIEST FORTNITE SKIT EVER shorts-cDwXsZlTV_s-1080pp-1697151697.mp4" preload="metadata" autoplay muted width="300" height="400"></video>
+      <a href="https://www.youtube.com/shorts/cDwXsZlTV_s" target="_blank">⬅️ See the full video!</a>
+    </div>
+    
+    <div class="imagememe">
+      <h4 style="padding: 0px 0px 0px 675px;">Seeking the classics?</h4>
+      <img src="Images/8492ovnwdoc51.jpg" style="margin-right: 10%; width: 500px; height: 400px; border-radius: 0%; ">
+      <h5 style="color: brown; padding: 0px 0px 0px 550px;">⬆️ Well, that's all I have (for now) ⬆️</h5>
+    </div>
+
+    <br>
+    
+    <h2>Donate to MyMemes.com</h2>
+    
+    <div class="form-container">
+      <div class="form">
+        <form action="form_page.php" method="POST">
+        <label for="description">DONATION FORM</label>
+        
+        <br>
+        <br>
+        
+        <div>
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Click to add text" required>  
+            
+            <br>
+            <br>
+            
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Click to add text" required>
+        </div>
+          <br>
+          <div>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="someone@something.com" required>  
+          </div>
+          <br>
+          <div>
+            <label for="subject">Phone Number:</label>
+            <input type="number" id="phone" name="phone" placeholder="XXXXXXXXXX" required>  
+          </div>
+          <br>
+          <label for="cars">Choose $ Amount:</label>
+            <select id="cars" name="cars">
+                <option value="onedollar">$1</option>
+                <option value="twodollars">$2</option>
+                <option value="fivedollars">$5</option>
+                <option value="tendollars">$10</option>
+            </select>
+
+          <br>
+          <br>
+
+          <label>Credit Card #:</label>
+          <input type="number" placeholder="XXXXXXXXXXXXXXXX" style="border-style: none; -webkit-appearance: none; -moz-appearance: textfield;">
+          <br>
+          <br>
+          
+          <div class="submition">
+            <button id="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <br>
+        <p>MyMemes.com - 2023</p>
+    <br>
+  </footer>
+  <script>
+    document.getElementById("submit").addEventListener("click", redirectFunction);
+        function redirectFunction(){
+            window.location.href="redirect.html";
+        }
+        
+    document.onmousedown=disableclick;
+    status="I see what you are doing... 👀";
+        function disableclick(event){
+        if(event.button==2){
+            alert(status);
+            return false;    
+        }
+    }
+  </script>
+</html>
